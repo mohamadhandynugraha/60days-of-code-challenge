@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form FCC Challenge</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="survey.css">
+    <!-- Optional theme -->
+
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<header class="page-header">
+    <h1 id="title" class="center-block text-center">Survey Form</h1>
+</header>
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form action="survey.html" method="post" id="survey-form" class="center-div">
+                <p id="description" class="text-center">Let us know how we can improve Kodingole?</p>
+                <div class="form-group">
+                    <label for="name" id="name-label">Your Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label">Your Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="number" id="number-label">Your Age:</label>
+                    <input type="number" id="number" class="form-control" placeholder="Your Age" required
+                    min="0" max="125">
+                </div>
+                <div class="form-group">
+                    <label for="dropdown-menu">Which option best describes your current role?</label>
+                    <br>
+                    <!-- Single button -->
+                    <div class="btn-group styled-select" id="dropdown-menu">
+                        <label for="dropdown"></label><select name="currentPosition" id="dropdown">
+                        <option disabled value>Select an option</option>
+                        <option value>Student</option>
+                        <option value>Full Time Job</option>
+                        <option value>Full Time Learner</option>
+                        <option value>Prefer not to say</option>
+                        <option value>Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <ul>
+                        <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Definitely</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" >Maybe</label></li>
+                        <li class="radio"><label><input name="radio-buttons" value="3"  type="radio" class="userRatings" >Not yet</label></li>
+                    </ul>
+                </div>
+
+                <div class="form-group cb-pad">
+                    <label>Things that should be improved in the future
+                        (Check all that apply):</label>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="1">
+                            Option one is this and that&mdash;be sure to include why it's great
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="2">
+                            Option two is disabled
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Any Comments or Suggestions?
+                        <textarea class="form-control" rows="3" cols="50"></textarea>
+                    </label>
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary text-center">Submit</button>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
