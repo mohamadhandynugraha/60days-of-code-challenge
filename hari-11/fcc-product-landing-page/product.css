@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+#header {
+    background-color: #eee;
+}
+
+#header-img {
+    width: 15px;
+    height: auto;
+}
+
+#nav-bar ul li a:hover {
+    color: #000;
+    font-weight: 800;
+}
+#logo-text-link:hover {
+    color: #000;
+    font-weight: 800;
+}
+
+#logo-text-link {
+    color: #000;
+}
+
+#harga {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#video {
+    padding-bottom: 80px;
+}
+
+#email {
+    width: 50%;
+}
+
+.jumbotron {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.navbar-fixed-top {
+    border: none;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+
+/*pricing*/
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pricing #tenor, #pricing #bass, #pricing #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+#pricing #tenor .level, #pricing #bass .level, #pricing #valve .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#pricing #tenor h2, #pricing #bass h2, #pricing #valve h2 {
+    margin-top: 15px;
+}
+#pricing #tenor ol, #pricing #bass ol, #pricing #valve ol {
+    margin: 15px 0;
+}
+#pricing #tenor ol li, #pricing #bass ol li, #pricing #valve ol li {
+    padding: 5px 0;
+}
+#pricing #tenor button, #pricing #bass button, #pricing #valve button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #337ab7;
+    font-weight: 400;
+}
+#pricing #tenor button:hover, #pricing #bass button:hover, #pricing #valve button:hover {
+    background-color: #337ab7;
+    transition: background-color 1s;
+}
+@media (max-width: 800px) {
+    #pricing {
+        flex-direction: column;
+    }
+    #pricing #tenor, #pricing #bass, #pricing #valve {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+}
