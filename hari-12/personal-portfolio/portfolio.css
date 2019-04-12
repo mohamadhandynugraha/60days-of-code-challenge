@@ -1,0 +1,147 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e0ebe8;
+}
+
+h3 {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    color: #008000;
+}
+
+#nav-bar ul li a:hover {
+    color: #008000;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+#nav-bar ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#web-dev {
+    color: #008000;
+    font-weight: 700;
+}
+
+#my-name, #work-together {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#projects {
+    background-color: white;
+    max-height: 100%;
+}
+
+#social {
+    background-color: #c8f7c5;
+    margin-top: -30px;
+}
+
+#foot {
+    margin-top: -30px;
+    padding-top: 30px;
+    background-color: #22313f;
+    color: #FFFFFF;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+#work-together {
+    position: relative;
+    bottom: 50px;
+}
+
+#work-caption {
+    position: relative;
+    bottom: 50px;
+}
+
+.project-tile {
+    position: relative;
+    bottom: 20px;
+    font-size: 32px;
+}
+
+.a-bunder {
+    position: relative;
+    left: 250px;
+    top: 100px;
+    padding: 10px 16px;
+    font-size: 24px;
+    border-radius: 35px;
+    line-height: 1.33;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.btn-circle.btn-xl {
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    border-radius: 35px;
+    line-height: 1.33;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.button-bulet{
+    border-radius: 20%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 40px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #008000;
+}
+
+.navbar {
+    background-color: #e0ebe8;
+    border: none;
+}
+
+.jumbotron {
+    background-color: #e0ebe8;
+}
+
+.vertical-center {
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none #e0ebe8;
+}
+
+
+.navbar-inverse .navbar-toggle {
+    border-color: #e0ebe8;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #e0ebe8;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #008000;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #008000;
+}
+
+.work {
+    padding-top: 60px;
+    margin-top: -60px;
+    background-color: white;
+}
