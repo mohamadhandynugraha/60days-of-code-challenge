@@ -28,6 +28,7 @@ const removeTodo = function (todo, text) {
     } else {
         todos.splice(index, 1)
     }
+    // todos
 };
 
 removeTodo(todos, "makan");
