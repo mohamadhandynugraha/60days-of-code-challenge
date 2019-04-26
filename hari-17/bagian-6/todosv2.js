@@ -31,6 +31,29 @@ const removeTodo = function (todo, text) {
     // todos
 };
 
+// menggunakan filter untuk search
+// kalau pake method dari javaScript yang filter usahakan buat variable
+const findNotes = function(notes, query){
+    return notes.filter(function (note) {
+        const isTitleMatch = note.title.toLowerCase().includes(query.toLowerCase());
+        const isBodyMatch = note.title.toLowerCase().includes(query.toLowerCase());
+        return isTitleMatch || isBodyMatch;
+    });
+};
+
+// menggunakan filter untuk search
+// kalau pake method dari JavaScript yang filter usahakan buat variable
+const getThingsTodo = function(todos){
+    return todos.filter(function (todo) {
+        return !todo.completed
+    })
+};
+
 removeTodo(todos, "makan");
 console.log();
 console.log(todos);
+
+console.log("************************************");
+console.log(findNotes(todos, "m"));
+console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+console.log(getThingsTodo(todos));

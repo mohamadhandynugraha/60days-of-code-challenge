@@ -35,6 +35,7 @@ notes.forEach(function (item, index) {
    console.log(`Notes -> '${item}' ada di posisi -> ${index}`)
 });
 
+
 // for loop
 for (let index = 0; index <= 4; index++){
     for (let jIndex = 4; jIndex >= 0; jIndex--){
