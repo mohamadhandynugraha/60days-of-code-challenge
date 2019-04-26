@@ -57,3 +57,5 @@ console.log("************************************");
 console.log(findNotes(todos, "m"));
 console.log("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
 console.log(getThingsTodo(todos));
+// todos
+// todos
