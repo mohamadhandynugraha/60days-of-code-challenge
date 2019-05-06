@@ -1,0 +1,11 @@
+challenge area 1
+
+1. create a new HTML file
+2. h1, 5 p tags
+3. server that folder and view in the 
+
+
+challenge area 2
+
+1. create a link to the JavaScript file
+2. remove all p tags that have "the" in the text
