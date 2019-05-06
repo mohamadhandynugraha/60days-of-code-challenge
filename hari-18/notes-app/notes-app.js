@@ -24,3 +24,10 @@ ps.forEach(function (item){
     item.textContent = "Paragraf yang sangat baru textnya";
     
 });
+
+// cara menangkap event listener di button
+// query selector dulu buttonnya
+// kemudian addEventListener
+document.querySelector("button").addEventListener("click", function(){
+   console.log("Button Clicked"); 
+});
